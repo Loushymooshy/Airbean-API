@@ -1,4 +1,4 @@
-# Airbean API - Grupp 5
+# Airbean API 
 
 Welcome to the Airbean API project! This is a project involving creating a backend API for the Airbean web application, where users can order coffee and have it delivered via drone.
 
