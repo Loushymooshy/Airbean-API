@@ -17,6 +17,10 @@ const MenuSchema = new mongoose.Schema({
   image: {
     type: String,
   },
+  createdAt: {
+    type: Date,
+    default: Date.now,
+  },
 });
 // Creates a model for Menu based on the Menu Schema
 const MenuModel = mongoose.model('menu', MenuSchema);

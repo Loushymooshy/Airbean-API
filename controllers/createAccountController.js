@@ -5,7 +5,7 @@ const validator = require('validator');
 // Creates a new user
 exports.createNewUser = async (req, res, next) => {
   try {
-    const { name, email, password } = req.body;
+    const { name, email, password, role } = req.body;
 
     // Validates email
     if (!validator.isEmail(email)) {
@@ -22,7 +22,7 @@ exports.createNewUser = async (req, res, next) => {
     const hashedPassword = await bcrypt.hash(password, 10);
 
     // Creates a new user in database
-    await UserModel.create({ name, email, password: hashedPassword });
+    await UserModel.create({ name, email, password: hashedPassword, role });
 
     res.status(201).json({
       status: 'success',

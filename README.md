@@ -35,7 +35,7 @@ To set up the project locally, follow these steps:
     
     `npm run dev` 
     
-The server should now be running on `http://localhost:8000`.
+The server should now be running on `http://localhost:8443`.
 
 
 
@@ -43,25 +43,27 @@ The server should now be running on `http://localhost:8000`.
 
   
 
-- **See Menu:** https://localhost:8000/api/menu (GET)
+- **See Menu:** http://localhost:8443/api/menu (GET)
 
-- **Create Menu-item:** https://localhost:8000/api/menu (POST)
+- **Create Menu-item:** http://localhost:8443/api/menu (POST)
 
-- **Delete Menu-item:** https://localhost:8000/api/menu/:itemID (DELETE)
+- **Delete Menu-item:** http://localhost:8443/api/menu/:itemID (DELETE)
 
-- **Create account:** https://localhost:8000/api/signUp (POST)
+- **Create account:** http://localhost:8443/api/signUp (POST)
 
-- **Create order:** https://localhost:8000/api/order (POST)
+- **Create order:** http://localhost:8443/api/order (POST)
 
-- **Log in:** https://localhost:8000/api/logIn (POST)
+- **Log in:** http://localhost:8443/api/logIn (POST)
 
-- **See order history :** https://localhost:8000/api/orderHistory/:id (GET)
+- **See order history :** http://localhost:8443/api/orderHistory/:id (GET)
 
-- **See delivery stats:** https://localhost:8000/api/deliveryStats/:orderID (GET)
+- **See delivery stats:** http://localhost:8443/api/deliveryStats/:orderID (GET)
 
-- **Update delivery stats:** https://localhost:8000/api/deliveryStats/:orderID/?:userID (GET)
+- **Update delivery stats:** http://localhost:8443/api/deliveryStats/:orderID/?:userID (GET)
 
-- **About:** https://localhost:8000/api/about (GET)
+- **About:** http://localhost:8443/api/about (GET)
+
+- **Campaign:** http://localhost:8443/api/campaign (POST)
 
 ## Technologies Used
 -   **Programming Language:** JavaScript

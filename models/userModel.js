@@ -16,6 +16,10 @@ const UserSchema = new mongoose.Schema({
     type: String,
     required: [true, 'Please provide password'], 
   },
+  role: {
+    type: String,
+    default: 'user', // Default role is 'user'
+  },
   orders: [OrderSchema], // Users Order history
 });
 

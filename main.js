@@ -8,7 +8,7 @@ const menuRoute = require('./routes/menuRoute');
 const orderRoute = require('./routes/orderRoute');
 const userRoute = require('./routes/userRoute');
 const aboutRoute = require('./routes/aboutRoute');
-
+const adminRoute = require('./routes/adminRoute');
 //Express Application Initialization
 const app = express();
 
@@ -28,5 +28,8 @@ app.use('/api', menuRoute);
 app.use('/api', orderRoute);
 app.use('/api', aboutRoute);
 app.use('/api', userRoute);
+app.use('/api',adminRoute);
+
 
 module.exports = app;
+
