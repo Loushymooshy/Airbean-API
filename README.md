@@ -22,7 +22,7 @@ To set up the project locally, follow these steps:
 
 1.  **Clone the repository:**
 
-	` git clone https://github.com/LucasDaSilva96/Airbean-API.git`
+	` git clone https://github.com/Loushymooshy/Airbean-API`
 	`cd airbean-api`
 
 2.  **Install dependencies:**
